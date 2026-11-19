@@ -1,9 +1,4 @@
-import deepImpactImg from '../assets/img/deep-impact.jpg'
-import noireImg from '../assets/img/noire.jpg'
-import oneOneImg from '../assets/img/one-one.jpg'
-import cairoImg from '../assets/img/cairo.jpg'
-import concreteImg from '../assets/img/concrete.jpg'
-import floraImg from '../assets/img/flora.jpg'
+import heroImage from '../assets/hero.png'
 
 export const projects = [
   {
@@ -13,7 +8,7 @@ export const projects = [
     kicker: 'Experimento digital',
     category: 'Direção de arte · WebGL',
     year: '2026',
-    image: deepImpactImg,
+    image: heroImage,
     alt: 'Nebulosa azul e laranja brilhando no espaço profundo',
     description:
       'Um experimento audiovisual que traduz a energia de uma explosão cósmica em uma experiência navegável. Shaders, tipografia e sound design trabalham juntos para criar uma sensação de escala e movimento.',
@@ -28,7 +23,7 @@ export const projects = [
     kicker: 'Série editorial',
     category: 'Direção de arte · Fotografia',
     year: '2025',
-    image: noireImg,
+    image: heroImage,
     alt: 'Retrato em preto e branco de um homem com olhar direto',
     description:
       'Uma série editorial em preto e branco sobre presença e silêncio. O contraste duro, os enquadramentos fechados e a tipografia condensada constroem uma atmosfera cinematográfica.',
@@ -42,7 +37,7 @@ export const projects = [
     kicker: 'Lançamento automotivo',
     category: 'Landing page · Motion',
     year: '2025',
-    image: oneOneImg,
+    image: heroImage,
     alt: 'Carro esportivo branco fotografado de frente em uma rua à noite',
     description:
       'Landing page de lançamento para uma coleção automotiva. Um grid assimétrico, tipografia de impacto e microinterações precisas criam a sensação de velocidade e exclusividade.',
@@ -56,7 +51,7 @@ export const projects = [
     kicker: 'Sistema de identidade',
     category: 'Branding · 3D',
     year: '2024',
-    image: cairoImg,
+    image: heroImage,
     alt: 'Pirâmide do Egito sob um céu azul com nuvens',
     description:
       'Identidade visual para uma noite temática inspirada no Egito. Simbolismo, padronagens e peças digitais se combinam em um sistema gráfico que mistura o antigo e o contemporâneo.',
@@ -70,7 +65,7 @@ export const projects = [
     kicker: 'Website institucional',
     category: 'Website · Desenvolvimento',
     year: '2024',
-    image: concreteImg,
+    image: heroImage,
     alt: 'Arranha-céus de vidro vistos de baixo em um dia nublado',
     description:
       'Site institucional para um estúdio de arquitetura. A estrutura modular, a fotografia em grande escala e a navegação fluida deixam o trabalho — e não a interface — no centro da experiência.',
@@ -84,7 +79,7 @@ export const projects = [
     kicker: 'Identidade botânica',
     category: 'Branding · Embalagem',
     year: '2023',
-    image: floraImg,
+    image: heroImage,
     alt: 'Flores amarelas e brancas contra um céu azul intenso',
     description:
       'Identidade visual para uma marca botânica de pequenos lotes. Uma paleta vibrante, embalagens táteis e uma direção de arte solar aproximam o produto de quem busca cor no cotidiano.',

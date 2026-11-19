@@ -3,7 +3,6 @@ import { Arrow } from './Icons'
 import LayeredTitle from './LayeredTitle'
 import LogoMark from './LogoMark'
 import RotatingBadge from './RotatingBadge'
-import SectionHead from './SectionHead'
 
 const capabilities = [
   'Direção de arte',
@@ -14,17 +13,43 @@ const capabilities = [
   '3D',
 ]
 
+const profilePixels = [
+  'green',
+  'blue',
+  '',
+  'purple',
+  'blue',
+  'purple',
+  'green',
+  '',
+  '',
+  'green',
+  'blue',
+  'purple',
+  'purple',
+  '',
+  'green',
+  'blue',
+]
+
 function About() {
   return (
     <section className="section about" id="sobre">
-      <SectionHead index="01" label="Sobre" note="Quem está por trás" />
+      <div className="profile-kicker" data-reveal>
+        <h2>Profile</h2>
+        <span className="profile-pixels" aria-hidden="true">
+          {profilePixels.map((color, index) => (
+            <span className={color ? `is-${color}` : ''} key={index} />
+          ))}
+        </span>
+      </div>
 
       <div className="about__title-row">
         <LayeredTitle className="about__title" data-reveal>
-          Sobre
+          Wallas
         </LayeredTitle>
         <p className="about__lead" data-reveal style={{ '--reveal-delay': '0.1s' }}>
-          Design, código e movimento em uma mesma direção.
+          Graphic design, 3D art e movimento em uma mesma direção.
         </p>
       </div>
 
@@ -60,8 +85,8 @@ function About() {
 
         <div className="about__content">
           <p className="about__manifesto" data-reveal>
-            Sou <strong>Wallas</strong>, criativo que pensa em sistemas — não em peças
-            isoladas.
+            Sou <strong>Wallas</strong>, designer que pensa em sistemas — não em
+            peças isoladas.
           </p>
 
           <p className="about__body" data-reveal style={{ '--reveal-delay': '0.08s' }}>

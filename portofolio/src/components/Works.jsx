@@ -6,11 +6,11 @@ import SectionHead from './SectionHead'
 function Works({ onOpenProject }) {
   return (
     <section className="section works" id="projetos">
-      <SectionHead index="02" label="Projetos" note="Trabalhos selecionados" />
+      <SectionHead index="02" label="Selected works" note="Trabalhos selecionados" />
 
       <div className="works__head">
         <LayeredTitle className="works__title" data-reveal>
-          Projetos
+          Selected works
         </LayeredTitle>
 
         <div className="works__side" data-reveal style={{ '--reveal-delay': '0.1s' }}>

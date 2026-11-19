@@ -39,17 +39,17 @@
 }
 
 :root {
-  --bg: #dadada;
-  --bg-deep: #d1d0cc;
-  --paper: #f0ede6;
-  --ink: #111110;
-  --ink-soft: #383633;
-  --muted: #66635d;
-  --red: #df4a32;
-  --red-deep: #c43b26;
-  --line: rgba(17, 17, 16, 0.16);
-  --line-strong: rgba(17, 17, 16, 0.34);
-  --line-light: rgba(240, 237, 230, 0.2);
+  --bg: #030306;
+  --bg-deep: #080b14;
+  --paper: #0a0c12;
+  --ink: #f4f5f8;
+  --ink-soft: #b7bbc5;
+  --muted: #858b99;
+  --red: #529dff;
+  --red-deep: #9dcaff;
+  --line: rgba(235, 241, 255, 0.14);
+  --line-strong: rgba(235, 241, 255, 0.3);
+  --line-light: rgba(235, 241, 255, 0.18);
   --font-display: 'Anton', 'Arial Narrow', sans-serif;
   --font-ui: 'Oswald', 'Arial Narrow', sans-serif;
   --font-body: 'Manrope', system-ui, sans-serif;

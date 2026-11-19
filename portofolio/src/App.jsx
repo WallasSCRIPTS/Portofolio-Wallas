@@ -7,22 +7,12 @@ import Footer from './components/Footer'
 import Header from './components/Header'
 import Hero from './components/Hero'
 import Intro from './components/Intro'
-import Marquee from './components/Marquee'
 import Menu from './components/Menu'
 import ProjectModal from './components/ProjectModal'
 import Services from './components/Services'
 import Works from './components/Works'
 import { projects } from './data/projects'
 import useReveal from './hooks/useReveal'
-
-const tickerItems = [
-  'Design de marca',
-  'Interfaces digitais',
-  'Motion & 3D',
-  'Desenvolvimento',
-  'Direção de arte',
-  '2026',
-]
 
 function App() {
   const [menuOpen, setMenuOpen] = useState(false)
@@ -124,12 +114,7 @@ function App() {
       <Menu open={menuOpen} onClose={closeMenu} />
 
       <main>
-        <Hero onOpenProject={openProject} />
-
-        <div className="ticker" data-header-dark>
-          <Marquee items={tickerItems} speed={38} />
-        </div>
-
+        <Hero />
         <About />
         <Works onOpenProject={openProject} />
         <Services />
