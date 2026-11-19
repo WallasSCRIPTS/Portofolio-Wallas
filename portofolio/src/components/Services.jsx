@@ -22,18 +22,18 @@ function Services() {
     <section className="section services" id="servicos" data-header-dark>
       <SectionHead
         index="03"
-        label="Serviços"
-        note="O que eu posso fazer"
+        label="Experimental"
+        note="Visual experiments"
         light
       />
 
       <div className="services__head">
         <LayeredTitle className="services__title" light data-reveal>
-          Serviços
+          Experimental
         </LayeredTitle>
         <p className="services__intro" data-reveal style={{ '--reveal-delay': '0.1s' }}>
-          Do conceito ao pixel final. Um processo próximo, direto e sem etapas
-          desnecessárias — com espaço para experimentar no caminho.
+          Um laboratório visual entre identidade, imagem, movimento, 3D e código.
+          Cada projeto começa com espaço para experimentar.
         </p>
       </div>
 
